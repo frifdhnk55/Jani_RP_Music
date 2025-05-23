@@ -61,9 +61,9 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
+           # InlineKeyboardButton(
+                #text=f"{played} {bar} {dur}",
+                #callback_data="GetTimer",
         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)   
             
         ],
